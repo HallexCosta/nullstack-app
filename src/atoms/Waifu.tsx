@@ -1,5 +1,4 @@
 import { ActionLink } from "./ActionLink";
-import * as Progress from "@radix-ui/react-progress";
 
 export type WaifuProps = {
   data: {
@@ -17,13 +16,6 @@ export function Waifu({ data: { imageURL, artistURL, name } }: WaifuProps) {
           <img class="rounded-md h-36 w-30" src={imageURL} alt="waifu" />
         </ActionLink>
 
-        {/* <Separator.Root class="w-full h-2" style={{ margin: "15px 0" }} /> */}
-        <Progress.Root class="ProgressRoot" value={80}>
-          <Progress.Indicator
-            class="ProgressIndicator"
-            style={{ transform: `translateX(-${100 - 80}%)` }}
-          />
-        </Progress.Root>
         <ActionLink href={artistURL}>
           <p class="text-lg text-center truncate text-red-400/60 max-w-[120px] min-w-[120px]">
             {name}

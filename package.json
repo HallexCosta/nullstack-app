@@ -14,8 +14,6 @@
     "build": "npx nullstack build --mode=ssg --output=docs"
   },
   "dependencies": {
-    "@radix-ui/react-progress": "^1.0.3",
-    "@radix-ui/react-separator": "1.0.3",
     "axios": "^1.4.0",
     "mysql2": "^3.3.3"
   }
