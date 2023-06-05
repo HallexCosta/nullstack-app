@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "typeRoots": ["./@types", "node_modules/@types"]
+  }
+}
