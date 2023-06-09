@@ -1,6 +1,14 @@
 # Nullstack Waifus APP
 
-<img src='https://raw.githubusercontent.com/nullstack/nullstack/master/nullstack.png' height='60' alt='Nullstack' />
+### Learn Concepts
+- [x] Server Functions
+- [x] Cliente Functions
+- [x] Inner Component
+- [x] Functional Components
+- [x] Class Components
+- [x] Nullstack Context
+- [ ] Routes and Params
+- [ ] Two-Way Binding
 
 ## How to run this Project
 
